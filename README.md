@@ -71,7 +71,7 @@ Built as part of a simulation project using Java AWT and file handling.
 ## 📜 Certifications
 
 - ✅ Full Stack Web Development – Udemy  
-- ✅ Java & Python Full Stack Development – Eduskills  
+- ✅ Java Full Stack Development – Eduskills  
 - ✅ C Programming – Cisco  
 - ✅ Python Full Stack Internship – Eduskills  
 - ✅ Altair Data Science Virtual Internship
