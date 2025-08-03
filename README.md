@@ -1,41 +1,50 @@
-# 👋 Hi there, I'm Vivek Maurya
+# 👋 Hey there, I'm Vivek Maurya
 
-🎓 3rd Year Computer Engineering Student @ A.P. Shah Institute of Technology  
-💡 I build full-stack applications, AI-powered tools, and real-time systems  
-🌱 Currently working on projects that simplify travel, education, and automation  
-📫 Connect with me on [LinkedIn](https://linkedin.com/in/vivek-maurya-95b300328)
+I'm a 3rd year Computer Engineering student at A.P. Shah Institute of Technology, passionate about building cool stuff with code.  
+Whether it's full-stack web apps, AI tools, or real-time systems, I love turning ideas into working solutions.
+
+Right now, I'm diving deeper into machine learning and backend development—while exploring ways to make tech more useful for people. 🚀
+
+📫 Let's connect on [LinkedIn](https://linkedin.com/in/vivek-maurya-95b300328)
 
 ---
 
 ## 💼 Projects
 
 ### 🌍 TravelMate – Smart Travel Website  
-Responsive PHP-based travel platform with real-time weather, chatbot (Roamly), user profiles, transaction history, and reviews.  
+A responsive travel website designed to help users manage trips with ease.  
+It offers real-time weather updates using OpenWeather API,trip routing using OpenTrip API, a custom-built chatbot (Roamly), and features like profile management, reviews, and transaction history.  
 🔧 **Tech Stack:** PHP, HTML, CSS, JavaScript, SQL, OpenWeather API  
 
 ---
 
 ### 🎓 EduPulse – Online Class Attentiveness Detector  
-Privacy-conscious browser extension for real-time student engagement tracking during online classes.  
+A browser extension that tracks student engagement during online classes using facial and eye movement detection.  
+It provides real-time attentiveness scores and sends reports to teachers.  
 🔧 **Tech Stack:** Python, YOLOv5, MediaPipe, OpenCV, Flask  
+🧠 **AIML:** Real-time object detection, behavior monitoring, computer vision  
 
 ---
 
 ### 📈 Commodity Price Predictor – Machine Learning Model  
-A predictive system that forecasts commodity prices (e.g., crop/farm product prices) using historical data.  
-🔧 **Tech Stack:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn, Arima  
-📊 **Key Concepts:** Regression models, feature engineering, model evaluation  
+A predictive model that helps forecast commodity prices (like crops) using historical and economic data.  
+Useful for farmers, traders, and analysts in planning and decision-making.  
+🔧 **Tech Stack:** Python, Pandas, Scikit-learn, Matplotlib, Seaborn, ARIMA  
+📊 **Key Concepts:** Regression, time series forecasting, model evaluation  
 
 ---
 
 ### 📊 QA-BOT – Real-Time Voice Agent Analyzer  
-Python + Streamlit dashboard to evaluate customer-agent calls with sentiment, emotion, and accuracy scoring.  
+A Streamlit-based dashboard that analyzes customer-agent calls for sentiment, emotion, and accuracy.  
+Data is stored in MySQL and visualized with Plotly for actionable insights.  
 🔧 **Tech Stack:** Python, Streamlit, TextBlob, NRCLex, TF-IDF, MySQL, Plotly  
+🧠 **AIML:** NLP, emotion detection, real-time interaction scoring  
 
 ---
 
 ### 🏦 APSIT Bank Management System  
-Java AWT GUI application simulating basic banking operations including credit/debit, account validation, and secure file storage.  
+A Java-based GUI app that simulates basic banking features like deposits, withdrawals, and account validation.  
+Built as part of a simulation project using Java AWT and file handling.  
 🔧 **Tech Stack:** Java (AWT), File I/O  
 
 ---
@@ -44,7 +53,7 @@ Java AWT GUI application simulating basic banking operations including credit/de
 
 - 💻 Languages: Python, Java, C, PHP, JavaScript, SQL  
 - 🌐 Web: HTML, CSS, Flask, Streamlit, Bootstrap  
-- 🧠 AI/ML: Scikit-learn, OpenCV, MediaPipe, YOLOv5, XGBoost, NLP (TextBlob, NRCLex)  
+- 🧠 AIML: Scikit-learn, OpenCV, MediaPipe, YOLOv5, XGBoost, TextBlob, NRCLex, ARIMA  
 - 📈 Tools: Pandas, Matplotlib, Seaborn, Plotly  
 - 🗃️ Databases: MySQL  
 - 🧰 Tools: Git, GitHub, VS Code
@@ -67,10 +76,3 @@ Java AWT GUI application simulating basic banking operations including credit/de
 - ✅ Python Full Stack Internship – Eduskills  
 - ✅ Altair Data Science Virtual Internship
 
----
-
-## 📊 GitHub Stats
-
-![Vivek's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vivekmaurya&show_icons=true&theme=radical)
-
----
