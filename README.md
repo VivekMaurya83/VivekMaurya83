@@ -383,7 +383,10 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=VivekMaurya83&theme=radical&no-frame=true&no-bg=true&margin-w=12&row=1" />
+<img
+  src="https://raw.githubusercontent.com/VivekMaurya83/VivekMaurya83/output/github-trophies.svg"
+  width="100%"
+/>
 
 </div>
 
@@ -395,7 +398,10 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=VivekMaurya83&theme=react-dark&hide_border=true&bg_color=0D0221&color=A78BFA&line=8B5CF6&point=E9D5FF" width="100%"/>
+<img
+  src="https://raw.githubusercontent.com/VivekMaurya83/VivekMaurya83/output/activity-graph.svg"
+  width="100%"
+/>
 
 </div>
 
