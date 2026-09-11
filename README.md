@@ -17,12 +17,6 @@
 [![Email](https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a0b2e)](mailto:vivekmaurya1183@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-5B21B6?style=for-the-badge&logo=github&logoColor=white&labelColor=1a0b2e)](https://github.com/VivekMaurya83)
 
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=VivekMaurya83&style=for-the-badge&color=8b5cf6&label=PROFILE+VIEWS)
-![Followers](https://img.shields.io/github/followers/VivekMaurya83?style=for-the-badge&color=7c3aed&labelColor=1a0b2e&label=FOLLOWERS)
-![Stars](https://img.shields.io/github/stars/VivekMaurya83?style=for-the-badge&color=a78bfa&labelColor=1a0b2e&label=STARS)
-
 </div>
 
 <br/>
