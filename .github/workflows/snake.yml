@@ -26,43 +26,6 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 🔐 Fix permissions created by Snake
-      - name: Fix generated file permissions
-        run: |
-          sudo chown -R "$(id -u):$(id -g)" dist
-          sudo chmod -R u+rwX dist
-
-      # 🏆 GitHub Trophies
-      - name: Generate GitHub Trophies
-        uses: soulteary/github-profile-trophy-action@v1.0.0
-        with:
-          options: >-
-            username=${{ github.repository_owner }}&
-            theme=radical&
-            column=8&
-            row=1&
-            margin-w=12&
-            no-bg=true&
-            no-frame=true
-          path: dist/github-trophies.svg
-          token: ${{ secrets.GH_TOKEN }}
-
-      # 📈 Contribution Activity Graph
-      - name: Generate Activity Graph
-        uses: maurodesouza/github-readme-activity-graph-action@v1
-        with:
-          username: ${{ github.repository_owner }}
-          options: >-
-            theme=react-dark&
-            hide_border=true&
-            bg_color=0D0221&
-            color=A78BFA&
-            line=8B5CF6&
-            point=E9D5FF&
-            days=40
-          output_path: dist/activity-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       # 🚀 Publish generated assets
       - name: Push Profile Assets to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
