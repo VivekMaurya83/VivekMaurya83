@@ -39,13 +39,13 @@ jobs:
           options: >-
             username=${{ github.repository_owner }}&
             theme=radical&
-            column=6&
+            column=8&
             row=1&
             margin-w=12&
             no-bg=true&
             no-frame=true
           path: dist/github-trophies.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       # 📈 Contribution Activity Graph
       - name: Generate Activity Graph
@@ -58,7 +58,8 @@ jobs:
             bg_color=0D0221&
             color=A78BFA&
             line=8B5CF6&
-            point=E9D5FF
+            point=E9D5FF&
+            days=40
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
