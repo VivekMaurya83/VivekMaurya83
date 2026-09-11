@@ -10,12 +10,13 @@ on:
 
 jobs:
   generate:
+    runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
-    runs-on: ubuntu-latest
-
     steps:
+
       # 🐍 Contribution Snake
       - name: Generate Snake Animation
         uses: Platane/snk@v3
@@ -27,17 +28,18 @@ jobs:
 
       # 🏆 GitHub Trophies
       - name: Generate GitHub Trophies
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          username: ${{ github.repository_owner }}
-          file: dist/github-trophies.svg
-          theme: radical
+          options: >-
+            username=${{ github.repository_owner }}&
+            theme=radical&
+            column=6&
+            row=1&
+            margin-w=12&
+            no-bg=true&
+            no-frame=true
+          path: dist/github-trophies.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          max-cols: 6
-          max-rows: 1
-          margin-width: 12
-          no-background: true
-          no-frame: true
 
       # 📈 Contribution Activity Graph
       - name: Generate Activity Graph
@@ -54,7 +56,7 @@ jobs:
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 🚀 Publish generated assets
+      # 🚀 Publish generated SVGs
       - name: Push Profile Assets to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
