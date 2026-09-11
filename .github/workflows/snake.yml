@@ -16,9 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # -----------------------------
       # 🐍 Contribution Snake
-      # -----------------------------
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
@@ -27,19 +25,21 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # -----------------------------
       # 🏆 GitHub Trophies
-      # -----------------------------
       - name: Generate GitHub Trophies
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
-          output_path: dist/github-trophies.svg
+          file: dist/github-trophies.svg
+          theme: radical
           token: ${{ secrets.GITHUB_TOKEN }}
+          max-cols: 6
+          max-rows: 1
+          margin-width: 12
+          no-background: true
+          no-frame: true
 
-      # -----------------------------
       # 📈 Contribution Activity Graph
-      # -----------------------------
       - name: Generate Activity Graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
@@ -54,9 +54,7 @@ jobs:
           output_path: dist/activity-graph.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # -----------------------------
-      # 🚀 Publish everything
-      # -----------------------------
+      # 🚀 Publish generated assets
       - name: Push Profile Assets to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
