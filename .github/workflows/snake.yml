@@ -17,7 +17,7 @@ jobs:
 
     steps:
 
-      # 📥 Checkout repo (needed for activity graph action)
+      # 📥 Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -30,21 +30,21 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 📈 Contribution Activity Graph
-      - name: Generate Activity Graph
-        uses: Ashutosh00710/github-readme-activity-graph@v2
+      # 🏆 GitHub Trophies (developer-focused only)
+      - name: Generate GitHub Trophies
+        uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
-          GITHUB_USERNAME: ${{ github.repository_owner }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUTPUT_FILE: dist/activity-graph.svg
-          HIDE_BORDER: true
-          BG_COLOR: 0D0221
-          COLOR: A78BFA
-          LINE: 8B5CF6
-          POINT: E9D5FF
-          AREA: true
-          AREA_COLOR: 6D28D9
-          CUSTOM_TITLE: Contribution Activity
+          options: >-
+            username=${{ github.repository_owner }}&
+            theme=radical&
+            title=Commits,Repositories,Stars,Followers,PullRequest,Issues,Reviews&
+            column=7&
+            row=1&
+            margin-w=12&
+            no-bg=true&
+            no-frame=true
+          path: dist/github-trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # 🚀 Publish generated assets
       - name: Push Profile Assets to output branch
