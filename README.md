@@ -71,16 +71,16 @@ I enjoy owning a problem end-to-end — from data pipeline to deployed UI.
 **AI / ML & Generative AI**
 
 ![Transformers](https://img.shields.io/badge/Transformers-8B5CF6?style=flat-square&logo=huggingface&logoColor=white&labelColor=1a0b2e)
-![XGBoost](https://img.shields.io/badge/XGBoost-7C3AED?style=flat-square&labelColor=1a0b2e)
-![LightGBM](https://img.shields.io/badge/LightGBM-7C3AED?style=flat-square&labelColor=1a0b2e)
-![RAG](https://img.shields.io/badge/RAG-6D28D9?style=flat-square&labelColor=1a0b2e)
-![Agentic AI](https://img.shields.io/badge/Agentic%20AI-6D28D9?style=flat-square&labelColor=1a0b2e)
-![Google ADK](https://img.shields.io/badge/Google%20ADK-5B21B6?style=flat-square&labelColor=1a0b2e)
+![XGBoost](https://img.shields.io/badge/XGBoost-7C3AED?style=flat-square&logo=xgboost&logoColor=white&labelColor=1a0b2e)
+![LightGBM](https://img.shields.io/badge/LightGBM-7C3AED?style=flat-square&logo=microsoft&logoColor=white&labelColor=1a0b2e)
+![RAG](https://img.shields.io/badge/RAG-6D28D9?style=flat-square&logo=semanticscholar&logoColor=white&labelColor=1a0b2e)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-6D28D9?style=flat-square&logo=openai&logoColor=white&labelColor=1a0b2e)
+![Google ADK](https://img.shields.io/badge/Google%20ADK-5B21B6?style=flat-square&logo=google&logoColor=white&labelColor=1a0b2e)
 ![Gemini API](https://img.shields.io/badge/Gemini%20API-5B21B6?style=flat-square&logo=googlegemini&logoColor=white&labelColor=1a0b2e)
-![FAISS](https://img.shields.io/badge/FAISS-4C1D95?style=flat-square&labelColor=1a0b2e)
-![Qdrant](https://img.shields.io/badge/Qdrant-4C1D95?style=flat-square&labelColor=1a0b2e)
+![FAISS](https://img.shields.io/badge/FAISS-4C1D95?style=flat-square&logo=meta&logoColor=white&labelColor=1a0b2e)
+![Qdrant](https://img.shields.io/badge/Qdrant-4C1D95?style=flat-square&logo=qdrant&logoColor=white&labelColor=1a0b2e)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4C1D95?style=flat-square&logo=opencv&logoColor=white&labelColor=1a0b2e)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-4C1D95?style=flat-square&labelColor=1a0b2e)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-4C1D95?style=flat-square&logo=google&logoColor=white&labelColor=1a0b2e)
 
 **Cloud, DevOps & Tooling**
 
@@ -335,7 +335,7 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 
 **Altair**
 
-![Data Science Master](https://img.shields.io/badge/Data%20Science%20Master-Dec%202024-7C3AED?style=flat-square&labelColor=1a0b2e)
+![Data Science Master](https://img.shields.io/badge/Data%20Science%20Master-Dec%202024-7C3AED?style=flat-square&logo=altairgraphql&logoColor=white&labelColor=1a0b2e)
 
 **Postman**
 
@@ -343,7 +343,7 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 
 **Eduskills Academy**
 
-![Python Full Stack](https://img.shields.io/badge/Python%20Full%20Stack-Oct%202024-5B21B6?style=flat-square&labelColor=1a0b2e)
+![Python Full Stack](https://img.shields.io/badge/Python%20Full%20Stack-Oct%202024-5B21B6?style=flat-square&logo=python&logoColor=white&labelColor=1a0b2e)
 
 **Udemy**
 
@@ -358,11 +358,15 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 <div align="center">
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-8B5CF6?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=1a0b2e)](https://leetcode.com/u/Vivek_83_M/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-6D28D9?style=for-the-badge&logo=codechef&logoColor=white&labelColor=1a0b2e)](https://www.codechef.com/users/gaggle_wave_31)
+
+<br/>
+
+<img src="https://leetcard.jacoblin.cool/Vivek_83_M?theme=dark&font=Fira%20Code&border=0&radius=10" width="500"/>
 
 </div>
 
 <br/>
+
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
@@ -370,10 +374,10 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=VivekMaurya83&show_icons=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=8B5CF6&text_color=E9D5FF" />
+<img height="165" src="https://github-readme-stats-one-bice.vercel.app/api?username=VivekMaurya83&show_icons=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=8B5CF6&text_color=E9D5FF" />
 <img height="165" src="https://streak-stats.demolab.com/?user=VivekMaurya83&theme=radical&hide_border=true&background=0D0221&ring=8B5CF6&fire=A78BFA&currStreakLabel=E9D5FF" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VivekMaurya83&layout=compact&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=E9D5FF" />
+<img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=VivekMaurya83&layout=compact&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=E9D5FF" />
 
 </div>
 
@@ -384,7 +388,7 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 <div align="center">
 
 <img
-  src="https://github-profile-trophy.vercel.app/?username=VivekMaurya83&theme=radical&column=8&row=1&margin-w=12&no-bg=true&no-frame=true"
+  src="https://github-trophies.vercel.app/?username=VivekMaurya83&theme=radical&column=8&row=1&margin-w=12&no-bg=true&no-frame=true"
   width="100%"
 />
 
@@ -399,7 +403,7 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 <div align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=VivekMaurya83&theme=react-dark&hide_border=true&bg_color=0D0221&color=A78BFA&line=8B5CF6&point=E9D5FF&area=true&area_color=6D28D9"
+  src="https://raw.githubusercontent.com/VivekMaurya83/VivekMaurya83/output/activity-graph.svg"
   width="100%"
 />
 
