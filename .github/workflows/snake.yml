@@ -21,14 +21,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 🐍 Contribution Snake
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      # 📁 Ensure output directory exists with runner permissions
+      - name: Prepare output directory
+        run: mkdir -p dist
 
       # 🏆 GitHub Trophies (developer-focused only)
       - name: Generate GitHub Trophies
@@ -45,6 +40,19 @@ jobs:
             no-frame=true
           path: dist/github-trophies.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 🐍 Contribution Snake
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # 🔒 Fix permissions (in case Docker container wrote root-owned files)
+      - name: Fix file permissions
+        run: sudo chown -R $USER:$USER dist
 
       # 🚀 Publish generated assets
       - name: Push Profile Assets to output branch
