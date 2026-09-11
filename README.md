@@ -375,22 +375,10 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 <div align="center">
 
 <img height="165" src="https://github-readme-stats-one-bice.vercel.app/api?username=VivekMaurya83&show_icons=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=8B5CF6&text_color=E9D5FF" />
+
 <img height="165" src="https://streak-stats.demolab.com/?user=VivekMaurya83&theme=radical&hide_border=true&background=0D0221&ring=8B5CF6&fire=A78BFA&currStreakLabel=E9D5FF" />
 
 <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=VivekMaurya83&layout=compact&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=E9D5FF" />
-
-</div>
-
-<br/>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img
-  src="https://raw.githubusercontent.com/VivekMaurya83/VivekMaurya83/output/github-trophies.svg"
-  width="100%"
-/>
 
 </div>
 
