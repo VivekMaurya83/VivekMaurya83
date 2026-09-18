@@ -366,13 +366,20 @@ Hands-on exposure to data preprocessing, exploratory data analysis, and model bu
 
 ## 📊 GitHub Analytics
 
+<table align="center">
+  <tr>
+    <td align="center">
+      <img height="165" src="https://github-readme-stats-five-mu-64.vercel.app/api?username=VivekMaurya83&show_icons=true&count_private=true&hide_rank=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=8B5CF6&text_color=E9D5FF" />
+    </td>
+    <td align="center">
+      <img height="165" src="https://streak-stats.demolab.com/?user=VivekMaurya83&theme=radical&hide_border=true&background=0D0221&ring=8B5CF6&fire=A78BFA&currStreakLabel=E9D5FF&sideLabels=A78BFA&sideNums=E9D5FF&dates=A78BFA" />
+    </td>
+  </tr>
+</table>
+
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-five-mu-64.vercel.app/api?username=VivekMaurya83&show_icons=true&count_private=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&icon_color=8B5CF6&text_color=E9D5FF" />
-
-<img height="165" src="https://streak-stats.demolab.com/?user=VivekMaurya83&theme=radical&hide_border=true&background=0D0221&ring=8B5CF6&fire=A78BFA&currStreakLabel=E9D5FF" />
-
-<img src="https://github-readme-stats-five-mu-64.vercel.app/api/top-langs/?username=VivekMaurya83&layout=compact&count_private=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=E9D5FF" />
+<img height="200" src="https://github-readme-stats-five-mu-64.vercel.app/api/top-langs/?username=VivekMaurya83&layout=donut-vertical&count_private=true&theme=radical&hide_border=true&bg_color=0D0221&title_color=A78BFA&text_color=E9D5FF" />
 
 </div>
 

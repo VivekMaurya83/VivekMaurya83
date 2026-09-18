@@ -25,22 +25,6 @@ jobs:
       - name: Prepare output directory
         run: mkdir -p dist
 
-      # 🏆 GitHub Trophies (developer-focused only)
-      - name: Generate GitHub Trophies
-        uses: soulteary/github-profile-trophy-action@v1.0.0
-        with:
-          options: >-
-            username=${{ github.repository_owner }}&
-            theme=radical&
-            title=Commits,Repositories,Stars,Followers,PullRequest,Issues,Reviews&
-            column=7&
-            row=1&
-            margin-w=12&
-            no-bg=true&
-            no-frame=true
-          path: dist/github-trophies.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       # 🐍 Contribution Snake
       - name: Generate Snake Animation
         uses: Platane/snk@v3
